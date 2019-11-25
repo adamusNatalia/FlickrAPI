@@ -1,0 +1,19 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.row {
+    margin-bottom: 15px;
+    @media (max-width: 576px) {      
+        text-align: center;
+    }
+}  
+
+img {
+    width: auto;
+    height:110px;
+    @media (max-width: 800px) {      
+        height: 90px;
+    }
+}
+
